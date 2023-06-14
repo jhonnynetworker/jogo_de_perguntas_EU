@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #003399;
+    /* Azul escuro - cor da bandeira da União Europeia */
+    color: #fff;
+    /* Texto branco para contrastar com o fundo escuro */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#question-container {
+    margin-bottom: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    /* Fundo branco */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#choices {
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #003399;
+    /* Azul escuro - cor da bandeira da União Europeia */
+    color: #fff;
+    /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002279;
+    /* Azul um pouco mais escuro ao passar o mouse */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#question {
+    color: #ffd700;
+    /* Amarelo - cor da pergunta */
+    font-weight: bold;
+}
+
+.logo {
+    margin-top: 20px;
+    max-width: 50%;
+    height: auto;
+}
+
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    #question-container {
+        padding: 10px;
+    }
+}
