@@ -7,7 +7,7 @@
 
  // Função para buscar uma pergunta da API
  function fetchQuestion() {
-     const url = 'https://opentdb.com/api.php?amount=15&category=23&type=multiple'; // Perguntas de Geografia (Categoria 22) relacionadas à Europa em português
+     const url = 'https://opentdb.com/api.php?amount=15&category=19&type=multiple'; // Perguntas de Matemática (Categoria 19) 
 
      fetch(url)
          .then(response => response.json())
